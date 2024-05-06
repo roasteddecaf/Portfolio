@@ -19,7 +19,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -28,7 +28,9 @@ header {
     color: white;
     cursor: default;
 }
-
+.logo:hover{
+    color: #008CBA;
+}
 .navigation a {
     font-size: 2.1em;
     color: white;
@@ -92,7 +94,7 @@ header {
 .merch-section h2 {
     
     color: rgb(95, 96, 24);
-    font-size: 30px;
+    font-size: 2.5em;
     text-align: center;
     margin-bottom: 40px;
 }
