@@ -17,6 +17,10 @@ body header {
     z-index: 100;
 }
 
+header{
+    background: white;
+}
+
 .logo{
     font-size: 2em;
     color: #555;
@@ -115,24 +119,6 @@ body header {
     background: #008CBA;
 }
 
-.social-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background: #008CBA;
-    border-radius: 50%;
-    margin-right: 22px;
-    margin-top: 10%;
-    text-align: center;
-    line-height: 35px;
-    border: 1px solid #fff;
-    outline: 2px solid #008CBA;
-    transition: .3s;
-    position: relative;
-}
-.social-icons a:hover {
-    transform: translateY(-5px);
-}
 
 body {
     display: flex;
@@ -145,4 +131,5 @@ body {
 .section-image {
     width: 30%; /* Adjust the width as needed */
     margin-left: auto; /* This pushes the image to the right */
+    
 }

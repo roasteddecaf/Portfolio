@@ -17,6 +17,11 @@ body header {
     z-index: 100;
 }
 
+header{
+    background: size 10%;
+    background: white;
+}
+
 .logo {
     font-size: 2em;
     color: #555;
