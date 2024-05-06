@@ -67,16 +67,16 @@ header {
     height: 100%;
     display: flex;
     justify-content: center;
-    margin: 0px 0px 0px;  /* Adjusted for better visibility and spacing */
-    background-color: rgb(176, 201, 206);  /* Ensures contrast with potentially white page background */
-    padding: 50px 100px;  /* Added padding for better touch */
+    margin: 0px 0px 0px;  
+    background-color: rgb(176, 201, 206);  
+    padding: 50px 100px;  
     flex-grow: 1;
 }
 
 .social-links a img {
-    width: 70px;  /* Slightly larger for visibility */
-    height: 70px;  /* Maintains aspect ratio */
-    margin: 0 75px;  /* More space between icons */
+    width: 70px;  
+    height: 70px; 
+    margin: 0 75px; 
 }
 
 .merch-section {
@@ -114,8 +114,8 @@ header {
 }
 
 .merch-item:hover {
-    transform: scale(1.1); /* Scales up the item by 10% */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.25); /* Enhances shadow for 3D effect */
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25); 
     
 }
 
