@@ -1,0 +1,87 @@
+/* Mobile menu styles */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+    .navigation {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgb(51, 47, 50);
+        padding: 20px 0;
+    }
+    .navigation a {
+        margin: 10px 0;
+    }
+}
+
+/* Active link style */
+.navigation a.active {
+    color: #008CBA;
+    font-weight: bold;
+}
+
+/* Skill bars for resume */
+.skill-bar {
+    display: inline-block;
+    width: 60%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.skill-level {
+    height: 100%;
+    background: #008CBA;
+    border-radius: 5px;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 100px;
+}
+
+.skill-percent {
+    display: inline-block;
+    width: 40px;
+}
+
+/* Print button */
+.print-resume {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-resume:hover {
+    background: #0077a3;
+}
+
+@media print {
+    header, .print-resume {
+        display: none;
+    }
+    body {
+        padding-top: 0;
+    }
+}
